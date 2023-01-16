@@ -54,3 +54,7 @@ For personalizing this template, here's a list of things you should do.
   - `android/app/src/main/java/APP_NAME>/MainApplication.java`
   - The file structure in `android/app/src/main/java` to reflect you app id. e.g. `com.tb.app` -> `android/app/src/main/java/com/tb/app/...`
 - [ ] Change the app itself!
+
+## Mentions
+- [Logo Freepik](https://www.freepik.es/vector-gratis/concepto-logotipo-supermercado_7114901.htm#page=2&query=supermarket&position=1&from_view=search&track=sph)
+
