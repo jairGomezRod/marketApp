@@ -9,7 +9,12 @@ module.exports = function(api) {
         {
           root: ['./'],
           alias: {
-            '^~(.+)': './src/\\1',
+            '@assets': './assets',
+            '~screens': './src/screens/',
+            '~templates': './src/components/templates/',
+            '~organisms': './src/components/organisms/',
+            '~molecules': './src/components/molecules/',
+            '~atoms': './src/components/atoms/',
           },
           extensions: [
             '.ios.js',
