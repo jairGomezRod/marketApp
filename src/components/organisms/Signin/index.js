@@ -4,13 +4,13 @@ import StatusUserAccount from '~molecules/StatusUserAccount';
 import BaseInput from '~molecules/BaseInput';
 import Button from '~atoms/Button'
 
-const Signin = () => {
+const Signin = (props) => {
   return (
     <View className="items-center">
       <BaseInput type="email"/>
       <BaseInput type="password"/>
       <Button color="#29EFC1" content="Sign In"/>
-      <StatusUserAccount/>
+      <StatusUserAccount onClick={props.onChangeForm} question="register"/>
     </View>
   );
 }

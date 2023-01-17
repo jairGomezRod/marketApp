@@ -5,7 +5,7 @@ const FieldLabel = ({type}) => {
   return (
     <View>
       <Text className="block capitalize text-base font-medium text-slate-700">
-        { type }
+        { type.replace('-', ' ') }
       </Text>
     </View>
   );
